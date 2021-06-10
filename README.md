@@ -40,10 +40,10 @@ The following describes all the steps that need to be performed for replication 
 
 ## 1. Setup
 The following softwares are needed for the analyses:
-* (MATLAB) [https://www.mathworks.com/products/matlab.html]
-* (SPM12) [https://www.fil.ion.ucl.ac.uk/spm/software/spm12/]
-* (BrainNet Viewer) [https://www.nitrc.org/projects/bnv/]
-* (FSL) [https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FSL]
+* [MATLAB] (https://www.mathworks.com/products/matlab.html)
+* [SPM12](https://www.fil.ion.ucl.ac.uk/spm/software/spm12/)
+* [BrainNet Viewer] (https://www.nitrc.org/projects/bnv/)
+* [FSL] (https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FSL)
 
 After you have downloaded the software, proceed as follows: 
 1. download GitHub repo.
