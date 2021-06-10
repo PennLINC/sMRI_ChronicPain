@@ -20,7 +20,7 @@ Bart Larsen, Anna Xu, Cobb Scott, Robert Dworkin, Ute Habel, Simon Eickhoff, Cla
 January 2020
 
 ## Current Project Status
-submitted to 
+Paper, code, & post submited on a preprint server 
 
 ## Datasets
 folgt
@@ -36,3 +36,17 @@ folgt
 
 
 # CODE DOCUMENTATION
+The following describes all the steps that need to be performed for replication including set up, statistical main and subanalyses as well figure generation and result interpretation. 
+
+## 1. Setup
+
+## 2. ALE Metaanalysis
+### Main analysis
+
+### Subanalysis
+* Gray matter
+* Cortical thickness
+
+
+
+
