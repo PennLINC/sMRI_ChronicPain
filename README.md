@@ -68,8 +68,10 @@ If you are running the analyses on a Windows OS computer, please follow the next
 ***Everything is now prepared to run the ALE scripts!***
 
 ## 2. ALE Metaanalysis
-4. open the script *runALE.m* in MATLAB. 
+1. Open the script *runALE.m* in MATLAB. 
     - You will need this script to perform the analyses. 
+    - ```curPath=genpath(pwd)``` & ```addpath(curPath)```: adds all dependencies to the main directory. 
+    - ```cd ale```: takes you to the **ale** folder so that analyses can be started.
 
 ### Main analysis
 
@@ -81,4 +83,5 @@ If you are running the analyses on a Windows OS computer, please follow the next
 ## 3. Results
 
 
-
+## 4. Annotation:
++ Please note that if you want to run the analysis again, you must first empty the **ALE** folder (where all results were saved). Otherwise, the analysis cannot run without errors. 
