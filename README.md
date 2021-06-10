@@ -8,13 +8,11 @@ Alina T. Henn
 ## Faculty Leads
 Theodore D. Satterthwaite
 
-Lisa Wagels
-
 ## Analytic Replicator
 Azeez Adebimpe
 
 ## Collaborators
-Bart Larsen, Anna Xu, Cobb Scott, Robert Dworkin, Ute Habel, Simon Eickhoff, Claudia Eickhoff
+Bart Larsen, Azeez Adebimpe, Anna Xu, Cobb Scott, Vaishnavi Sharma, Sophia Linguiti, Robert Dworkin, Allan I. Basbaum, Gregory Corder, Robert R. Edwards, Clifford J. Woolf, Ute Habel, Simon B. Eickhoff, Claudia R. Eickhoff, Lisa Wagels
 
 ## Project Start Date
 January 2020
@@ -68,10 +66,41 @@ If you are running the analyses on a Windows OS computer, please follow the next
 ***Everything is now prepared to run the ALE scripts!***
 
 ## 2. ALE Metaanalysis
-1. Open the script *runALE.m* in MATLAB. 
++ Open the script *runALE.m* in MATLAB. 
     - You will need this script to perform the analyses. 
-    - ```curPath=genpath(pwd)``` & ```addpath(curPath)```: adds all dependencies to the main directory. 
-    - ```cd ale```: takes you to the **ale** folder so that analyses can be started.
+
+***Description and explanation of the commands in the runALE script:*** 
++ ```curPath=genpath(pwd)``` & ```addpath(curPath)```: 
+    - Adds all dependencies to the main directory. 
++ ```cd ale```:
+    - Takes you to the **ale** folder so that analyses can be started.
+
+*Main analysis*
++ ```ale_inputCoords('aberrant_20200908.xls')```: 
+    - The coordinate data for the main analyses (aberrant structural changes) located in *data/aberrant_**20200113**.xlsx* are read in. 
+    - Data will be converted to a .mat format for the analyses.
++ ```ale_inputCoords('painCoords_20200908.xls')```: 
+    - Reads the coordinate data from the document *data/painCoord_20200113.xls* for the subgroup analyses regarding direction-specific group differences in structural data.
+    - The coordinate data is read in .mat format for analyses and is located in ale/DataMatlab folder.
++ ```ale_estimateALE('pain_20200908.xlsx')```
+
+
+*Subanalysis gray matter*
++ ```ale_inputCoords('aberrant_GM_20210304.xls')```
+    - 
++ ```ale_inputCoords('painCoords_GM_20210304.xls')```
+    - 
++ ```ale_estimateALE('pain_GM_20210304.xlsx')```
+    - 
+
+*Subanalysis cortical thickness*
++ ```ale_inputCoords('aberrant_CT_20210304.xls')```
+    - 
++ ```ale_inputCoords('painCoords_CT_20210304.xls')```
+    - 
++ ```ale_estimateALE('pain_CT_20210304.xlsx')```
+    - 
+
 
 ### Main analysis
 
@@ -83,5 +112,5 @@ If you are running the analyses on a Windows OS computer, please follow the next
 ## 3. Results
 
 
-## 4. Annotation:
+## 4. Annotation
 + Please note that if you want to run the analysis again, you must first empty the **ALE** folder (where all results were saved). Otherwise, the analysis cannot run without errors. 
