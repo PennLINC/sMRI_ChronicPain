@@ -77,10 +77,10 @@ If you are running the analyses on a Windows OS computer, please follow the next
 
 *Main analysis*
 + ```ale_inputCoords('aberrant_20200908.xls')```: 
-    - The coordinate data for the main analyses (aberrant structural changes) located in *data/aberrant_**20200113**.xlsx* are read in. 
+    - The coordinate data for the main analyses (aberrant structural changes) located in *data/aberrant_20200908.xls* are read in. 
     - Data will be converted to a .mat format for the analyses.
 + ```ale_inputCoords('painCoords_20200908.xls')```: 
-    - Reads the coordinate data from the document *data/painCoord_20200113.xls* for the subgroup analyses regarding direction-specific group differences in structural data.
+    - Reads the coordinate data from the document *data/painCoords_20200908.xls* for the subgroup analyses regarding direction-specific group differences in structural data.
     - The coordinate data is read in .mat format for analyses and is located in ale/DataMatlab folder.
 + ```ale_estimateALE('pain_20200908.xlsx')```
     - XX
