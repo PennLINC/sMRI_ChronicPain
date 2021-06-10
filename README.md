@@ -34,7 +34,6 @@ folgt
 ## Publication DOI
 folgt
 
-
 # CODE DOCUMENTATION
 The following describes all the steps that need to be performed for replication including set up, statistical main and subanalyses as well figure generation and result interpretation. 
 
@@ -46,13 +45,25 @@ The following softwares are needed for the analyses:
 * [FSL](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FSL)
 
 After you have downloaded the software, proceed as follows: 
-1. download [GitHub repo].
-2. move the *spm12 folder* and *BrainNet Viewer folder* to the **dependencies folder**. 
-3. go to the folder **ale**:
+1. Download [GitHub repo].
+2. Move the *spm12 folder* and *BrainNet Viewer folder* to the **dependencies folder**. 
+3. Go to the folder **ale**:
     - Create two new subdirectories and name them **DataMatlab** and **DataRaw**.
     - The entered data will be saved here later
 
-If you are running the analyses on a Windows computer, please follow the next steps (otherwise go on to **2. ALE Metaanalysis**)
+If you are running the analyses on a Windows OS computer, please follow the next steps (otherwise go on to **2. ALE Metaanalysis**)
+1. Download [Visual Studio for C++](https://visualstudio.microsoft.com/vs/features/cplusplus/)
+2. The following Windows-specific documents are located in the **ale** folder (they do not affect analyses performed using Linux or Mac OS ):
+    - *tfceMex_pthread.c*
+    - *tfceMex_pthread.m*
+    - *tfceMex_pthread.mexw64*
+3. Before the actual ALE analysis, run the following commands in MATLAB:
+    
+    ```
+    mex -setup
+    mex 'tfceMex.c'
+    mex 'tfceMex_pthread.c'
+    ```
 
 
 ## 2. ALE Metaanalysis
