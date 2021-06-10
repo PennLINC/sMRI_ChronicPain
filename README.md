@@ -40,17 +40,19 @@ The following describes all the steps that need to be performed for replication 
 
 ## 1. Setup
 The following softwares are needed for the analyses:
-* [MATLAB] (https://www.mathworks.com/products/matlab.html)
+* [MATLAB](https://www.mathworks.com/products/matlab.html)
 * [SPM12](https://www.fil.ion.ucl.ac.uk/spm/software/spm12/)
-* [BrainNet Viewer] (https://www.nitrc.org/projects/bnv/)
-* [FSL] (https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FSL)
+* [BrainNet Viewer](https://www.nitrc.org/projects/bnv/)
+* [FSL](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FSL)
 
 After you have downloaded the software, proceed as follows: 
-1. download GitHub repo.
-2. move the spm12 and BrainNet Viewer folders to the dependencies folder. 
-3. go to the folder ale
- Create two new subdirectories and name them DataMatlab and DataRaw. This is where the entered data will be stored later.
-4. open the script runALE.m in MATLAB. You will need this script to perform the analyses. 
+1. download [GitHub repo].
+2. move the *spm12 folder* and *BrainNet Viewer folder* to the **dependencies folder**. 
+3. go to the folder **ale**:
+* Create two new subdirectories and name them **DataMatlab** and **DataRaw**.
+* The entered data will be saved here later
+4. open the script *runALE.m* in MATLAB. 
+* You will need this script to perform the analyses. 
 
 
 ## 2. ALE Metaanalysis
