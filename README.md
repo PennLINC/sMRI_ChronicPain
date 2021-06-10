@@ -83,23 +83,24 @@ If you are running the analyses on a Windows OS computer, please follow the next
     - Reads the coordinate data from the document *data/painCoord_20200113.xls* for the subgroup analyses regarding direction-specific group differences in structural data.
     - The coordinate data is read in .mat format for analyses and is located in ale/DataMatlab folder.
 + ```ale_estimateALE('pain_20200908.xlsx')```
+    - XX
 
 
 *Subanalysis gray matter*
 + ```ale_inputCoords('aberrant_GM_20210304.xls')```
-    - 
+    - xx
 + ```ale_inputCoords('painCoords_GM_20210304.xls')```
-    - 
+    - xx
 + ```ale_estimateALE('pain_GM_20210304.xlsx')```
-    - 
+    - xx
 
 *Subanalysis cortical thickness*
 + ```ale_inputCoords('aberrant_CT_20210304.xls')```
-    - 
+    - xx
 + ```ale_inputCoords('painCoords_CT_20210304.xls')```
-    - 
+    - xx
 + ```ale_estimateALE('pain_CT_20210304.xlsx')```
-    - 
+    - xx
 
 
 ### Main analysis
