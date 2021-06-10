@@ -53,7 +53,7 @@ After you have downloaded the software, proceed as follows:
 
 If you are running the analyses on a Windows OS computer, please follow the next steps (otherwise go on to **2. ALE Metaanalysis**)
 1. Download [Visual Studio for C++](https://visualstudio.microsoft.com/vs/features/cplusplus/)
-2. The following Windows-specific documents are located in the **ale** folder (they do not affect analyses performed using Linux or Mac OS ):
+2. The following Windows-specific documents are located in the **ale** folder (they do not affect analyses performed using Linux or Mac OS):
     - *tfceMex_pthread.c*
     - *tfceMex_pthread.m*
     - *tfceMex_pthread.mexw64*
@@ -64,6 +64,7 @@ If you are running the analyses on a Windows OS computer, please follow the next
     mex 'tfceMex.c'
     mex 'tfceMex_pthread.c'
     ```
+4. If you are using Windows OS you need a way to unpack **.gz** files. We recommend [WinRAR](https://winrar.de/downld.php) for this purpose.
 
 
 ## 2. ALE Metaanalysis
