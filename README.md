@@ -44,8 +44,9 @@ The following describes all the steps that need to be performed for replication 
 ### Main analysis
 
 ### Subanalysis
-* Gray matter
-* Cortical thickness
+***Gray matter
+
+***Cortical thickness
 
 
 
