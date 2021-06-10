@@ -58,7 +58,6 @@ If you are running the analyses on a Windows OS computer, please follow the next
     - *tfceMex_pthread.m*
     - *tfceMex_pthread.mexw64*
 3. Before the actual ALE analysis, run the following commands in MATLAB:
-    
     ```
     mex -setup
     mex 'tfceMex.c'
@@ -66,6 +65,7 @@ If you are running the analyses on a Windows OS computer, please follow the next
     ```
 4. If you are using Windows OS you need a way to unpack **.gz** files. We recommend [WinRAR](https://winrar.de/downld.php) for this purpose.
 
+***Everything is now prepared to run the ALE scripts!***
 
 ## 2. ALE Metaanalysis
 4. open the script *runALE.m* in MATLAB. 
