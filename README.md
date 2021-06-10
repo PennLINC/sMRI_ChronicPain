@@ -49,13 +49,16 @@ After you have downloaded the software, proceed as follows:
 1. download [GitHub repo].
 2. move the *spm12 folder* and *BrainNet Viewer folder* to the **dependencies folder**. 
 3. go to the folder **ale**:
-* Create two new subdirectories and name them **DataMatlab** and **DataRaw**.
-* The entered data will be saved here later
-4. open the script *runALE.m* in MATLAB. 
-* You will need this script to perform the analyses. 
+    - Create two new subdirectories and name them **DataMatlab** and **DataRaw**.
+    - The entered data will be saved here later
+
+If you are running the analyses on a Windows computer, please follow the next steps (otherwise go on to **2. ALE Metaanalysis**)
 
 
 ## 2. ALE Metaanalysis
+4. open the script *runALE.m* in MATLAB. 
+    - You will need this script to perform the analyses. 
+
 ### Main analysis
 
 ### Subanalysis
