@@ -27,7 +27,7 @@ Paper and code submited
     - painCoords_20210617.xls
 2. Subanalysis: gray matter
     - aberrant_GM_20210617.xls
-    - pain_GM_20210617.xlsx
+    - pain_GM_20210617.xlsx 
     - painCoords_GM_20210617.xls
 3. Subanalysis: cortical thickness
     - aberrant_CT_20210617.xls
