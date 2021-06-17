@@ -115,25 +115,34 @@ If you are running the analyses on a Windows OS computer, please follow the next
 
 ## 3. Results
 ### 3.1. Discription of Output folder 
-The results of the analysis are stored in the **"ALE" folder** (Henn_Pain-master_17.06.2021\EickhoffALE\ALE)
+The results of the analysis are stored in the **"ALE" folder** (Henn_Pain-master_17.06.2021\EickhoffALE\ALE).
+
+The following folders can be found in the ALE folder:
 
 1. *Contribution*
     - empty: null results
     - format: text fieles (.txt)
     - contains gravity for significant clusters converging in structural changes  
     - contains %-contribution from each experiment to ALE
-3. *Results*
+2. *Results*
     - format: nifty (.nii)
     - contains thresholded ALE maps (use map with suffix ***_cFWE05***: *p*<.05 family wise error corrected at cluster level)
     - information: all maps are thesholded at voxel-hight *p*<.001 uncorrecred and further cluster corrected
-5. *Foci*
-    - 
-7. *VolumZ*
-    - 
-9. *Contrasts*
-    - 
-11. *Conjunctions* 
-    - 
+3. *Foci*
+    - format: nifty (.nii)
+    - contains foci images (0: regions without significant coordinate results; 1:regions with significant coordinate results)
+4. *VolumsZ*
+    - format: nifty (.nii)
+    - contains Z-scored unthresholded ALE maps 
+5. *Images*
+    - ??
+6. *NullDistributions*
+    - ??
+7. *Volums*
+    - ??
+8. *VolumesTFCE*
+    - ??
+  
 
 
 ## 4. Annotation
