@@ -30,7 +30,7 @@ Paper and code submited
     - pain_GM_20210617.xlsx 
     - painCoords_GM_20210617.xls
 3. Subanalysis: cortical thickness
-    - aberrant_CT_20210617.xls
+    - aberrant_CT_20210617.xls 
     - pain_CT_20210617.xlsx
     - painCoords_CT_20210617.xls
 
