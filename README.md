@@ -21,7 +21,18 @@ January 2020
 Paper and code submited 
 
 ## Datasets
-folgt
+1. Main analysis:
+    - aberrant_20210617.xls
+    - pain_20210617.xlsx
+    - painCoords_20210617.xls
+2. Subanalysis: gray matter
+    - aberrant_GM_20210617.xls
+    - pain_GM_20210617.xlsx
+    - painCoords_GM_20210617.xls
+3. Subanalysis: cortical thickness
+    - aberrant_CT_20210617.xls
+    - pain_CT_20210617.xlsx
+    - painCoords_CT_20210617.xls
 
 ## Github Repository
 folgt
