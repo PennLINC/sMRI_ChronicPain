@@ -87,10 +87,10 @@ If you are running the analyses on a Windows OS computer, please follow the next
     - Takes you to the **ale** folder so that analyses can be started.
 
 *Main analysis*
-+ ```ale_inputCoords('aberrant_20200908.xls')```: 
++ ```ale_inputCoords('aberrant_20210617.xls')```: 
     - The coordinate data for the main analyses (aberrant structural changes) located in *data/aberrant_20200908.xls* are read in. 
     - Data will be converted to a .mat format for the analyses.
-+ ```ale_inputCoords('painCoords_20200908.xls')```: 
++ ```ale_inputCoords('painCoords_20210617.xls')```: 
     - Reads the coordinate data from the document *data/painCoords_20200908.xls* for the subgroup analyses regarding direction-specific group differences in structural data.
     - The coordinate data is read in .mat format for analyses and is located in ale/DataMatlab folder.
 + ```ale_estimateALE('pain_20200908.xlsx')```
@@ -98,30 +98,42 @@ If you are running the analyses on a Windows OS computer, please follow the next
 
 
 *Subanalysis gray matter*
-+ ```ale_inputCoords('aberrant_GM_20210304.xls')```
++ ```ale_inputCoords('aberrant_GM_20210617.xls')```
     - xx
-+ ```ale_inputCoords('painCoords_GM_20210304.xls')```
++ ```ale_inputCoords('painCoords_GM_20210617.xls')```
     - xx
-+ ```ale_estimateALE('pain_GM_20210304.xlsx')```
++ ```ale_estimateALE('pain_GM_20210617.xlsx')```
     - xx
 
 *Subanalysis cortical thickness*
-+ ```ale_inputCoords('aberrant_CT_20210304.xls')```
++ ```ale_inputCoords('aberrant_CT_20210617.xls')```
     - xx
-+ ```ale_inputCoords('painCoords_CT_20210304.xls')```
++ ```ale_inputCoords('painCoords_CT_20210617.xls')```
     - xx
-+ ```ale_estimateALE('pain_CT_20210304.xlsx')```
++ ```ale_estimateALE('pain_CT_20210617.xlsx')```
     - xx
-
-
-### Main analysis
-
-### Subanalysis
-***Gray matter***
-
-***Cortical thickness***
 
 ## 3. Results
+### 3.1. Discription of Output folder 
+The results of the analysis are stored in the **"ALE" folder** (Henn_Pain-master_17.06.2021\EickhoffALE\ALE)
+
+1. *Contribution*
+    - empty: null results
+    - format: text fieles (.txt)
+    - contains gravity for significant clusters converging in structural changes  
+    - contains %-contribution from each experiment to ALE
+3. *Results*
+    - format: nifty (.nii)
+    - contains thresholded ALE maps (use map with suffix ***_cFWE05***: *p*<.05 family wise error corrected at cluster level)
+    - information: all maps are thesholded at voxel-hight *p*<.001 uncorrecred and further cluster corrected
+5. *Foci*
+    - 
+7. *VolumZ*
+    - 
+9. *Contrasts*
+    - 
+11. *Conjunctions* 
+    - 
 
 
 ## 4. Annotation
