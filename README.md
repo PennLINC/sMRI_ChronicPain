@@ -50,7 +50,7 @@ The following describes all the steps that need to be performed for replication 
 The following softwares are needed for the analyses:
 * [MATLAB](https://www.mathworks.com/products/matlab.html)
 * [SPM12](https://www.fil.ion.ucl.ac.uk/spm/software/spm12/)
-* [BrainNet Viewer](https://www.nitrc.org/projects/bnv/)
+* [BrainNet Viewer](https://www.nitrc.org/projects/bnv/) --> **nur wenn darüber die Abb gemacht werden! Sonst was anderes Listen!*
 * [FSL](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FSL)
 
 After you have downloaded the software, proceed as follows: 
@@ -86,32 +86,30 @@ If you are running the analyses on a Windows OS computer, please follow the next
 + ```cd ale```:
     - Takes you to the **ale** folder so that analyses can be started.
 
-*Main analysis*
+### 2.1. Main analysis
 + ```ale_inputCoords('aberrant_20210617.xls')```: 
-    - The coordinate data for the main analyses (aberrant structural changes) located in *data/aberrant_20200908.xls* are read in. 
+    - The coordinate data for the main analyses (aberrant structural changes) located in *data/aberrant_20210617.xls* are read in. 
     - Data will be converted to a .mat format for the analyses.
 + ```ale_inputCoords('painCoords_20210617.xls')```: 
-    - Reads the coordinate data from the document *data/painCoords_20200908.xls* for the subgroup analyses regarding direction-specific group differences in structural data.
+    - Reads the coordinate data from the document *data/painCoords_20210617.xls* for the subgroup analyses regarding direction-specific group differences in structural data.
     - The coordinate data is read in .mat format for analyses and is located in ale/DataMatlab folder.
+    - Discription: 
 + ```ale_estimateALE('pain_20200908.xlsx')```
     - XX
+    - Discription: M 
 
+### 2.2. Subanalyses
+In the context of the subanalysis, the documents listed below are read in in an identical manner as already described in chapter 2.1. The only difference lies in the content and the name of the documents read in. 
 
 *Subanalysis gray matter*
 + ```ale_inputCoords('aberrant_GM_20210617.xls')```
-    - xx
 + ```ale_inputCoords('painCoords_GM_20210617.xls')```
-    - xx
 + ```ale_estimateALE('pain_GM_20210617.xlsx')```
-    - xx
 
 *Subanalysis cortical thickness*
 + ```ale_inputCoords('aberrant_CT_20210617.xls')```
-    - xx
 + ```ale_inputCoords('painCoords_CT_20210617.xls')```
-    - xx
 + ```ale_estimateALE('pain_CT_20210617.xlsx')```
-    - xx
 
 ## 3. Results
 ### 3.1. Discription of output (ALE) folder 
@@ -143,6 +141,10 @@ The following folders can be found in the ALE folder:
 8. *VolumesTFCE*
     - ??
   
+### 3.2. Figures
+
+### 3.3. Distribution of foci
+
 
 
 ## 4. Annotation
