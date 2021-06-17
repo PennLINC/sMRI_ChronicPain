@@ -114,7 +114,7 @@ If you are running the analyses on a Windows OS computer, please follow the next
     - xx
 
 ## 3. Results
-### 3.1. Discription of Output folder 
+### 3.1. Discription of output (ALE) folder 
 The results of the analysis are stored in the **"ALE" folder** (Henn_Pain-master_17.06.2021\EickhoffALE\ALE).
 
 The following folders can be found in the ALE folder:
