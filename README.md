@@ -50,7 +50,7 @@ The following describes all the steps that need to be performed for replication 
 The following softwares are needed for the analyses:
 * [MATLAB](https://www.mathworks.com/products/matlab.html)
 * [SPM12](https://www.fil.ion.ucl.ac.uk/spm/software/spm12/)
-* [BrainNet Viewer](https://www.nitrc.org/projects/bnv/) --> **nur wenn darüber die Abb gemacht werden! Sonst was anderes Listen!*
+* [MRIcron](https://www.nitrc.org/projects/mricron)
 * [FSL](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FSL)
 
 After you have downloaded the software, proceed as follows: 
