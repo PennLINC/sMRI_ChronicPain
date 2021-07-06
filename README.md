@@ -95,8 +95,7 @@ If you are running the analyses on a Windows OS computer, please follow the next
     - The coordinate data is read in .mat format for analyses and is located in ale/DataMatlab folder.
     - Discription: 
 + ```ale_estimateALE('pain_20200908.xlsx')```
-    - XX
-    - Discription: M 
+    - Starts the actual ALE analysis
 
 ### 2.2. Subanalyses
 In the context of the subanalysis, the documents listed below are read in in an identical manner as already described in chapter 2.1. The only difference lies in the content and the name of the documents read in. 
