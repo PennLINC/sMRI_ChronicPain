@@ -123,7 +123,7 @@ The following folders can be found in the ALE folder:
     - contains %-contribution from each experiment to ALE
 2. *Results*
     - format: nifty (.nii)
-    - contains thresholded ALE maps (use map with suffix ***_cFWE05***: *p*<.05 family wise error corrected at cluster level)
+    - contains thresholded ALE maps: use map with suffix ***_cFWE05***: *p*<.05 cluster based family wise error corrected & ***_TFCE***: p<.05 ***?*** threshold free cluster enhancement
     - information: all maps are thesholded at voxel-hight *p*<.001 uncorrecred and further cluster corrected
 3. *Foci*
     - format: nifty (.nii)
@@ -141,6 +141,11 @@ The following folders can be found in the ALE folder:
     - ??
   
 ### 3.2. Figures
+A detailed description of how to use MRIcron can be found here: [MRIcron Introducation](https://people.cas.sc.edu/rorden/mricron/main.html)
+
+1. open MRIcron
+2. click *OVERLY* --> *ADD* --> go to *Result*-folder within the ALE folder --> select the NIfTI file you want to display
+3. 
 
 ### 3.3. Distribution of foci
 
