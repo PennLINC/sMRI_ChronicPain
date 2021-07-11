@@ -18,7 +18,7 @@ Bart Larsen, Azeez Adebimpe, Anna Xu, Cobb Scott, Vaishnavi Sharma, Sophia Lingu
 January 2020
 
 ## Current Project Status
-Paper and code submited 
+Paper and code submitted 
 
 ## Datasets
 1. Main analysis:
@@ -47,7 +47,7 @@ folgt
 The following describes all the steps that need to be performed for replication including set up, statistical main and subanalyses as well figure generation and result interpretation. 
 
 ## 1. Setup
-The following softwares are needed for the analyses:
+The following software  is needed for the analyses:
 * [MATLAB](https://www.mathworks.com/products/matlab.html)
 * [SPM12](https://www.fil.ion.ucl.ac.uk/spm/software/spm12/)
 * [MRIcron](https://www.nitrc.org/projects/mricron)
@@ -55,7 +55,7 @@ The following softwares are needed for the analyses:
 
 After you have downloaded the software, proceed as follows: 
 1. Download [GitHub repo].
-2. Move the *spm12 folder* and *BrainNet Viewer folder* to the **dependencies folder**. 
+2. Move the *spm12 folder* to the **dependencies folder**. 
 3. Go to the folder **ale**:
     - Create two new subdirectories and name them **DataMatlab** and **DataRaw**.
     - The entered data will be saved here later
@@ -93,7 +93,7 @@ If you are running the analyses on a Windows OS computer, please follow the next
 + ```ale_inputCoords('painCoords_20210617.xls')```: 
     - Reads the coordinate data from the document *data/painCoords_20210617.xls* for the subgroup analyses regarding direction-specific group differences in structural data.
     - The coordinate data is read in .mat format for analyses and is located in ale/DataMatlab folder.
-    - Discription: 
+    - Description: 
 + ```ale_estimateALE('pain_20200908.xlsx')```
     - Starts the actual ALE analysis
 
@@ -122,14 +122,14 @@ The following folders can be found in the ALE folder:
     - contains gravity for significant clusters converging in structural changes  
     - contains %-contribution from each experiment to ALE
 2. *Results*
-    - format: nifty (.nii)
+    - format: NIfTI (.nii)
     - contains thresholded ALE maps: use map with suffix ***_cFWE05***: *p*<.05 cluster based family wise error corrected & ***_TFCE***: p<.05 ***?*** threshold free cluster enhancement
-    - information: all maps are thesholded at voxel-hight *p*<.001 uncorrecred and further cluster corrected
+    - information: all maps are thesholded at voxel-hight *p*<.001 uncorrected and further cluster corrected
 3. *Foci*
-    - format: nifty (.nii)
+    - format: NIfTI (.nii)
     - contains foci images (0: regions without significant coordinate results; 1:regions with significant coordinate results)
 4. *VolumsZ*
-    - format: nifty (.nii)
+    - format: NIfTI (.nii)
     - contains Z-scored unthresholded ALE maps 
 5. *Images*
     - ??
@@ -154,8 +154,8 @@ You have many possibilities to view the NIfTI documents or to generate images wi
     - You can select whether the slices are displayed in sagittal, coronal or axial view
     - In the context of the paper, I have only shown the sagittal and axial view
 5. **select *VIEW* :arrow_right: *SLICES***
-    - You can specify the silces by means of numbers that you want to display in the multiclice figure
-    - In addition, you can define how far the silces should overlap in the image
+    - You can specify the slices by means of numbers that you want to display in the multislice figure
+    - In addition, you can define how far the slices should overlap in the image
 
 ### 3.3. Distribution of foci
 
