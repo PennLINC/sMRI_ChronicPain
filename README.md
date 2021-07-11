@@ -145,15 +145,15 @@ A detailed description of how to use MRIcron can be found here: [MRIcron Introdu
 You have many possibilities to view the NIfTI documents or to generate images with MRIcron. In the following I will only describe how I generated the figures in the paper associated with the data so that you will be able to reproduce them. 
 
 1. open MRIcron
-2. select  *OVERLY* --> *ADD*
+2. select  *OVERLY* :arrow_right: *ADD*
     - go to *Result*-folder within the ALE folder
     - select the NIfTI file you want to display
-4. select *WINDOW* --> *MULTISLICES*
+4. select *WINDOW* :arrow_right: *MULTISLICES*
     -  You will be shown a series of slices of the currently open volumes.
-5. select *VIEW* --> *ORIENT*
+5. select *VIEW* :arrow_right: *ORIENT*
     - You can select whether the slices are displayed in sagittal, coronal or axial view
     - In the context of the paper, I have only shown the sagittal and axial view
-7. select *VIEW* --> *SLICES*
+7. select *VIEW* :arrow_right: *SLICES*
     - 
 
 ### 3.3. Distribution of foci
