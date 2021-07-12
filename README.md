@@ -132,14 +132,6 @@ The following folders can be found in the ALE folder:
 4. *VolumsZ*
     - format: NIfTI (.nii)
     - contains Z-scored unthresholded ALE maps 
-5. *Images*
-    - ??
-6. *NullDistributions*
-    - ??
-7. *Volums*
-    - ??
-8. *VolumesTFCE*
-    - ??
   
 ### 3.2. Figures
 A detailed description of how to use MRIcron can be found here: [MRIcron Introducation](https://people.cas.sc.edu/rorden/mricron/main.html)
