@@ -36,13 +36,16 @@ Paper and code submitted
     - painCoords_CT_20210617.xls
 
 ## Github Repository
-folgt
+following
 
 ## Path to Data on Filesystem
-folgt
+following
 
 ## Publication DOI
-folgt
+following
+
+## Pre-registration
+following
 
 # CODE DOCUMENTATION
 The following describes all the steps that need to be performed for replication including set up, statistical main and subanalyses as well figure generation and result interpretation. 
