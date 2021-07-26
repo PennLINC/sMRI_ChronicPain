@@ -19,7 +19,7 @@ Bart Larsen, Azeez Adebimpe,Lennart Frahm, Anna Xu, Cobb Scott, Vaishnavi Sharma
 January 2020
 
 ## Current Project Status
-Paper and code submitted 
+Paper in preparation 
 
 ## Datasets
 1. Main analysis:
