@@ -155,8 +155,6 @@ You have many possibilities to view the NIfTI documents or to generate images wi
     - You can specify the slices by means of numbers that you want to display in the multislice figure
     - In addition, you can define how far the slices should overlap in the image
 
-### 3.3. Distribution of foci
-
 
 
 ## 4. Annotation
