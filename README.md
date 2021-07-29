@@ -85,7 +85,7 @@ If you are running the analyses on a Windows OS computer, please follow the next
 ## 2. ALE Metaanalysis
 + Open the script *runALE.m* in MATLAB. 
     - You will need this script to perform the analyses. 
-+ Total duration approximately 10 hours.
++ Total duration approximately 10 hours (at computer center (IZKF) RWTH Aachen University Hospital).
 
 ***Description and explanation of the commands in the runALE script:*** 
 + ```curPath=genpath(pwd)``` & ```addpath(curPath)```: 
@@ -94,7 +94,7 @@ If you are running the analyses on a Windows OS computer, please follow the next
     - Takes you to the **ale** folder so that analyses can be started.
 
 ### 2.1. Main analysis 
-***:arrow_right: approximate duration: 5 hours (at computer center of the RWTH Aachen University Hospital)***  
+***:arrow_right: approximate duration: 5 hours (at computer center (IZKF) RWTH Aachen University Hospital)***  
 + ```ale_inputCoords('aberrant_20210617.xls')```: 
     - The coordinate data for the main analyses (aberrant structural changes) located in *data/aberrant_20210617.xls* are read in. 
     - Data will be converted to a .mat format for the analyses.
@@ -106,18 +106,18 @@ If you are running the analyses on a Windows OS computer, please follow the next
     - Starts the actual ALE analysis
 
 ### 2.2. Subanalyses 
-***:arrow_right: approximate duration: 5 hours (at computer center of the RWTH Aachen University Hospital)*** 
+***:arrow_right: approximate duration: 5 hours (at computer center (IZKF) RWTH Aachen University Hospital)*** 
 In the context of the subanalysis, the documents listed below are read in in an identical manner as already described in chapter 2.1. The only difference lies in the content and the name of the documents read in. 
 
 **Subanalysis gray matter**
-*:arrow_right: approximate duration: 3.5 hours (at computer center of the RWTH Aachen University Hospital)*
+*:arrow_right: approximate duration: 3.5 hours (at computer center (IZKF) RWTH Aachen University Hospital)*
 
 + ```ale_inputCoords('aberrant_GM_20210617.xls')```
 + ```ale_inputCoords('painCoords_GM_20210617.xls')```
 + ```ale_estimateALE('pain_GM_20210617.xlsx')```
 
 **Subanalysis cortical thickness**
-*:arrow_right: approximate duration: 1.5 hours (at computer center of the RWTH Aachen University Hospital)*
+*:arrow_right: approximate duration: 1.5 hours (at computer center (IZKF) RWTH Aachen University Hospital)*
 
 + ```ale_inputCoords('aberrant_CT_20210617.xls')```
 + ```ale_inputCoords('painCoords_CT_20210617.xls')```
