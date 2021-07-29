@@ -108,14 +108,16 @@ If you are running the analyses on a Windows OS computer, please follow the next
 ***:arrow_right: approximate duration: 5 hours (at computer center of the RWTH Aachen University Hospital)*** 
 In the context of the subanalysis, the documents listed below are read in in an identical manner as already described in chapter 2.1. The only difference lies in the content and the name of the documents read in. 
 
-*Subanalysis gray matter* 
+**Subanalysis gray matter**
 *:arrow_right: approximate duration: 3.5 hours (at computer center of the RWTH Aachen University Hospital)*
+
 + ```ale_inputCoords('aberrant_GM_20210617.xls')```
 + ```ale_inputCoords('painCoords_GM_20210617.xls')```
 + ```ale_estimateALE('pain_GM_20210617.xlsx')```
 
-*Subanalysis cortical thickness* 
+**Subanalysis cortical thickness**
 *:arrow_right: approximate duration: 1.5 hours (at computer center of the RWTH Aachen University Hospital)*
+
 + ```ale_inputCoords('aberrant_CT_20210617.xls')```
 + ```ale_inputCoords('painCoords_CT_20210617.xls')```
 + ```ale_estimateALE('pain_CT_20210617.xlsx')```
