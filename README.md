@@ -85,6 +85,7 @@ If you are running the analyses on a Windows OS computer, please follow the next
 ## 2. ALE Metaanalysis
 + Open the script *runALE.m* in MATLAB. 
     - You will need this script to perform the analyses. 
++ total duration approximately 10 hours
 
 ***Description and explanation of the commands in the runALE script:*** 
 + ```curPath=genpath(pwd)``` & ```addpath(curPath)```: 
