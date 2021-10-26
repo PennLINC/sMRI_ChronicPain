@@ -10,6 +10,7 @@ Theodore D. Satterthwaite
 
 ## Analytic Replicator
 Lennart Frahm
+    
     - Replication was performed using [uploaded scripts](https://github.com/alinahenn/sMRI_ChronicPain/tree/main/Henn_chronicPain_master) as well as [pyALE scripts](https://github.com/LenFrahm/pyALE), an ALE package based on Python
 
 ## Collaborators
