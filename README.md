@@ -91,18 +91,18 @@ If you are running the analyses on a Windows OS computer, please follow the next
 + ```curPath=genpath(pwd)``` & ```addpath(curPath)```: 
     - Adds all dependencies to the main directory. 
 + ```cd ale```:
-    - Takes you to the **ale** folder so that analyses can be started.
+    - Takes you to the **EickhoffALE** folder so that analyses can be started.
 
 ### 2.1. Main analysis 
 ***:arrow_right: approximate duration: 5 hours (at computer center (IZKF) RWTH Aachen University Hospital)***  
-+ ```ale_inputCoords('aberrant_20210617.xls')```: 
++ ```ale_inputCoords('aberrant_all_20210617.xls')```: 
     - The coordinate data for the main analyses (aberrant structural changes) located in *data/aberrant_20210617.xls* are read in. 
     - Data will be converted to a .mat format for the analyses.
-+ ```ale_inputCoords('painCoords_20210617.xls')```: 
++ ```ale_inputCoords('painCoords_all_20210617.xls')```: 
     - Reads the coordinate data from the document *data/painCoords_20210617.xls* for the subgroup analyses regarding direction-specific group differences in structural data.
     - The coordinate data is read in .mat format for analyses and is located in ale/DataMatlab folder.
     - Description: 
-+ ```ale_estimateALE('pain_20200908.xlsx')```
++ ```ale_estimateALE('pain_all_20200908.xlsx')```
     - Starts the actual ALE analysis
 
 ### 2.2. Subanalyses 
@@ -125,7 +125,7 @@ In the context of the subanalysis, the documents listed below are read in in an 
 
 ## 3. Results
 ### 3.1. Discription of output (ALE) folder 
-The results of the analysis are stored in the **"ALE" folder** (Henn_Pain-master_17.06.2021\EickhoffALE\ALE).
+The results of the analysis are stored in the **"ALE" folder** (Henn_chronicPain_master\EickhoffALE\ALE).
 
 The following folders can be found in the ALE folder:
 
