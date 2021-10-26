@@ -60,7 +60,7 @@ The following software  is needed for the analyses:
 * [FSL](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FSL)
 
 After you have downloaded the software, proceed as follows: 
-1. Download [GitHub repo].
+1. Download [GitHub repo](https://github.com/alinahenn/sMRI_ChronicPain/tree/main/Henn_chronicPain_master).
 2. Move the *spm12 folder* to the **dependencies folder**. 
 3. Go to the folder **ale**:
     - Create two new subdirectories and name them **DataMatlab** and **DataRaw**.
