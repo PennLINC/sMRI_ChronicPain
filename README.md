@@ -10,10 +10,10 @@ Theodore D. Satterthwaite
 
 ## Analytic Replicator
 Lennart Frahm
-    - Replication was performed using two other scripts and the results could be replicated
+* Replication was performed using [uploaded scripts](https://github.com/alinahenn/sMRI_ChronicPain/tree/main/Henn_chronicPain_master) as well as [pyALE scripts](https://github.com/LenFrahm/pyALE), an ALE package based on Python
 
 ## Collaborators
-Bart Larsen, Azeez Adebimpe,Lennart Frahm, Anna Xu, Cobb Scott, Vaishnavi Sharma, Sophia Linguiti, Robert Dworkin, Allan I. Basbaum, Gregory Corder, Robert R. Edwards, Clifford J. Woolf, Ute Habel, Simon B. Eickhoff, Claudia R. Eickhoff, Lisa Wagels
+Bart Larsen, Lennart Frahm, Anna Xu, Azeez Adebimpe, J. Cobb Scott, Sophia Linguiti, Vaishnavi Sharma, Allan I. Basbaum, Gregory Corder, Robert H. Dworkin, Robert R. Edwards, Clifford J. Woolf, Ute Habel, Simon B. Eickhoff, Claudia R. Eickhoff, Lisa Wagels
 
 ## Project Start Date
 January 2020
@@ -45,7 +45,7 @@ following
 following
 
 ## Pre-registration
-* Registered on [PROSPERO](https://www.crd.york.ac.uk/prospero/) on 23/01/2020
+* Registered on [PROSPERO](https://www.crd.york.ac.uk/prospero/display_record.php?RecordID=176498) on 23/01/2020
 * ID: CRD42020176498	
 * Title: Meta-Analysis of Structural Imaging Studies in Patients with Chronic Pain
 
@@ -60,7 +60,7 @@ The following software  is needed for the analyses:
 * [FSL](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FSL)
 
 After you have downloaded the software, proceed as follows: 
-1. Download [GitHub repo].
+1. Download [GitHub repo](https://github.com/alinahenn/sMRI_ChronicPain/tree/main/Henn_chronicPain_master).
 2. Move the *spm12 folder* to the **dependencies folder**. 
 3. Go to the folder **ale**:
     - Create two new subdirectories and name them **DataMatlab** and **DataRaw**.
@@ -68,7 +68,7 @@ After you have downloaded the software, proceed as follows:
 
 If you are running the analyses on a Windows OS computer, please follow the next steps (otherwise go on to **2. ALE Metaanalysis**)
 1. Download [Visual Studio for C++](https://visualstudio.microsoft.com/vs/features/cplusplus/)
-2. The following Windows-specific documents are located in the **ale** folder (they do not affect analyses performed using Linux or Mac OS):
+2. The following Windows-specific documents are located in the **EickhoffALE** folder (they do not affect analyses performed using Linux or Mac OS):
     - *tfceMex_pthread.c*
     - *tfceMex_pthread.m*
     - *tfceMex_pthread.mexw64*
@@ -91,18 +91,18 @@ If you are running the analyses on a Windows OS computer, please follow the next
 + ```curPath=genpath(pwd)``` & ```addpath(curPath)```: 
     - Adds all dependencies to the main directory. 
 + ```cd ale```:
-    - Takes you to the **ale** folder so that analyses can be started.
+    - Takes you to the **EickhoffALE** folder so that analyses can be started.
 
 ### 2.1. Main analysis 
 ***:arrow_right: approximate duration: 5 hours (at computer center (IZKF) RWTH Aachen University Hospital)***  
-+ ```ale_inputCoords('aberrant_20210617.xls')```: 
++ ```ale_inputCoords('aberrant_all_20210617.xls')```: 
     - The coordinate data for the main analyses (aberrant structural changes) located in *data/aberrant_20210617.xls* are read in. 
     - Data will be converted to a .mat format for the analyses.
-+ ```ale_inputCoords('painCoords_20210617.xls')```: 
++ ```ale_inputCoords('painCoords_all_20210617.xls')```: 
     - Reads the coordinate data from the document *data/painCoords_20210617.xls* for the subgroup analyses regarding direction-specific group differences in structural data.
     - The coordinate data is read in .mat format for analyses and is located in ale/DataMatlab folder.
     - Description: 
-+ ```ale_estimateALE('pain_20200908.xlsx')```
++ ```ale_estimateALE('pain_all_20200908.xlsx')```
     - Starts the actual ALE analysis
 
 ### 2.2. Subanalyses 
@@ -125,7 +125,7 @@ In the context of the subanalysis, the documents listed below are read in in an 
 
 ## 3. Results
 ### 3.1. Discription of output (ALE) folder 
-The results of the analysis are stored in the **"ALE" folder** (Henn_Pain-master_17.06.2021\EickhoffALE\ALE).
+The results of the analysis are stored in the **"ALE" folder** (Henn_chronicPain_master\EickhoffALE\ALE).
 
 The following folders can be found in the ALE folder:
 
