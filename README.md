@@ -45,7 +45,7 @@ following
 following
 
 ## Pre-registration
-* Registered on [PROSPERO](https://www.crd.york.ac.uk/prospero/) on 23/01/2020
+* Registered on [PROSPERO](https://www.crd.york.ac.uk/prospero/display_record.php?RecordID=176498) on 23/01/2020
 * ID: CRD42020176498	
 * Title: Meta-Analysis of Structural Imaging Studies in Patients with Chronic Pain
 
