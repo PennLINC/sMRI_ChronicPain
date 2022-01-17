@@ -61,7 +61,7 @@ January 2020
 * Title: Meta-Analysis of Structural Imaging Studies in Patients with Chronic Pain
 
 # CODE DOCUMENTATION
-The following describes all the steps that need to be performed for replication including set up, statistical main and subanalyses as well figure generation and result interpretation. 
+The following describes all the steps that need to be performed for replication including set up, statistical main, feature-specific analyses and sensitivity analyses as well figure generation and result interpretation. 
 
 ## 1. Setup
 The following software  is needed for the analyses:
@@ -77,7 +77,7 @@ After you have downloaded the software, proceed as follows:
     - Create two new subdirectories and name them **DataMatlab** and **DataRaw**.
     - The entered data will be saved here later
 
-If you are running the analyses on a Windows OS computer, please follow the next steps (otherwise go on to **2. ALE Metaanalysis**)
+If you are running the analyses on a Windows OS computer, please follow the next steps (otherwise go on to **2. ALE Meta-analyses**)
 1. Download [Visual Studio for C++](https://visualstudio.microsoft.com/vs/features/cplusplus/)
 2. The following Windows-specific documents are located in the **EickhoffALE** folder (they do not affect analyses performed using Linux or Mac OS):
     - *tfceMex_pthread.c*
@@ -93,7 +93,7 @@ If you are running the analyses on a Windows OS computer, please follow the next
 
 ***Everything is now prepared to run the ALE scripts!***
 
-## 2. ALE Metaanalysis
+## 2. ALE Meta-analyses
 + Open the script *runALE.m* in MATLAB. 
     - You will need this script to perform the analyses. 
 + Total duration approximately 10 hours (at computer center (IZKF) RWTH Aachen University Hospital).
@@ -157,14 +157,14 @@ In the context of the subanalysis, the documents listed below are read in in an 
 
 
 ## 3. Results
-### 3.1. Discription of output (ALE) folder 
+### 3.1. Description of output (ALE) folder 
 The results of the analysis are stored in the **"ALE" folder** (Henn_chronicPain_master\EickhoffALE\ALE).
 
 The following folders can be found in the ALE folder:
 
 1. *Contribution*
     - empty: null results
-    - format: text fieles (.txt)
+    - format: text files (.txt)
     - contains gravity for significant clusters converging in structural changes  
     - contains %-contribution from each experiment to ALE
 2. *Results*
