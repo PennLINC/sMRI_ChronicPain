@@ -19,7 +19,7 @@ Bart Larsen, Lennart Frahm, Anna Xu, Azeez Adebimpe, J. Cobb Scott, Sophia Lingu
 January 2020
 
 ## Current Project Status
-Paper in preparation 
+:arrow_right: Paper in preparation 
 
 ## Datasets
 
