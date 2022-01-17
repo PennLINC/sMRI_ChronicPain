@@ -110,33 +110,55 @@ If you are running the analyses on a Windows OS computer, please follow the next
 
 ### 2.1. Main analysis 
 ***:arrow_right: approximate duration: 5 hours (at computer center (IZKF) RWTH Aachen University Hospital)***  
-+ ```ale_inputCoords('aberrant_all_20210617.xls')```: 
++ ```ale_inputCoords('aberrant.xls')```: 
     - The coordinate data for the main analyses (aberrant structural changes) located in *data/aberrant_20210617.xls* are read in. 
     - Data will be converted to a .mat format for the analyses.
-+ ```ale_inputCoords('painCoords_all_20210617.xls')```: 
++ ```ale_inputCoords('painCoords.xls')```: 
     - Reads the coordinate data from the document *data/painCoords_20210617.xls* for the subgroup analyses regarding direction-specific group differences in structural data.
     - The coordinate data is read in .mat format for analyses and is located in ale/DataMatlab folder.
     - Description: 
-+ ```ale_estimateALE('pain_all_20200908.xlsx')```
++ ```ale_estimateALE('pain.xlsx')```
     - Starts the actual ALE analysis
 
-### 2.2. Subanalyses 
+### 2.2. Feature-specific analyses 
 ***:arrow_right: approximate duration: 5 hours (at computer center (IZKF) RWTH Aachen University Hospital)*** 
 In the context of the subanalysis, the documents listed below are read in in an identical manner as already described in chapter 2.1. The only difference lies in the content and the name of the documents read in. 
 
-**Subanalysis gray matter**
+**Feature-specific analysis gray matter**
 *:arrow_right: approximate duration: 3.5 hours (at computer center (IZKF) RWTH Aachen University Hospital)*
 
-+ ```ale_inputCoords('aberrant_GM_20210617.xls')```
-+ ```ale_inputCoords('painCoords_GM_20210617.xls')```
-+ ```ale_estimateALE('pain_GM_20210617.xlsx')```
++ ```ale_inputCoords('aberrant_GM.xls')```
++ ```ale_inputCoords('painCoords_GM.xls')```
++ ```ale_estimateALE('pain_GM.xlsx')```
 
-**Subanalysis cortical thickness**
+**Feature-specific analysis cortical thickness**
 *:arrow_right: approximate duration: 1.5 hours (at computer center (IZKF) RWTH Aachen University Hospital)*
 
-+ ```ale_inputCoords('aberrant_CT_20210617.xls')```
-+ ```ale_inputCoords('painCoords_CT_20210617.xls')```
-+ ```ale_estimateALE('pain_CT_20210617.xlsx')```
++ ```ale_inputCoords('aberrant_CT.xls')```
++ ```ale_inputCoords('painCoords_CT.xls')```
++ ```ale_estimateALE('pain_CT.xlsx')```
+
+### 2.3. Sensitivity analyses 
+**Sensitivity analysis: Main analysis** 
+*:arrow_right: approximate duration: 5 hours (at computer center (IZKF) RWTH Aachen University Hospital)* 
++ ```ale_inputCoords('aberrant_sensitivity_analyses.xls')```: 
++ ```ale_inputCoords('painCoords_sensitivity_analyses.xls')```: 
++ ```ale_estimateALE('pain_sensitivity_analyses.xlsx')```
+
+**Sensitivity analysis: gray matter**
+*:arrow_right: approximate duration: 3.5 hours (at computer center (IZKF) RWTH Aachen University Hospital)*
++ ```ale_inputCoords('aberrant_GM_sensitivity_analyses.xls')```
++ ```ale_inputCoords('painCoords_GM_sensitivity_analyses.xls')```
++ ```ale_estimateALE('pain_GM_sensitivity_analyses.xlsx')```
+
+**Sensitivity analysis: cortical thickness**
+*:arrow_right: approximate duration: 1.5 hours (at computer center (IZKF) RWTH Aachen University Hospital)*
++ ```ale_inputCoords('aberrant_CT_sensitivity_analyses.xls')```
++ ```ale_inputCoords('painCoords_CT_sensitivity_analyses.xls')```
++ ```ale_estimateALE('pain_CT_sensitivity_analyses.xlsx')```
+
+
+
 
 ## 3. Results
 ### 3.1. Discription of output (ALE) folder 
@@ -151,7 +173,7 @@ The following folders can be found in the ALE folder:
     - contains %-contribution from each experiment to ALE
 2. *Results*
     - format: NIfTI (.nii)
-    - contains thresholded ALE maps: use map with suffix ***_cFWE05***: *p*<.05 cluster based family wise error corrected & ***_TFCE***: p<.05 ***?*** threshold free cluster enhancement
+    - contains thresholded ALE maps: use map with suffix ***_cFWE05***: *p*<.05 cluster based family wise error corrected & ***_TFCE***: threshold free cluster enhancement
     - information: all maps are thesholded at voxel-hight *p*<.001 uncorrected and further cluster corrected
 3. *Foci*
     - format: NIfTI (.nii)
