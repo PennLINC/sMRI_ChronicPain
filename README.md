@@ -50,10 +50,10 @@ Paper in preparation
     - painCoords_CT_sensitivity_analyses.xls
 
 ## Path to Data on Filesystem
-[path](https://github.com/alinahenn/sMRI_ChronicPain/tree/main/Henn_chronicPain_master)
+:arrow_right:[path](https://github.com/alinahenn/sMRI_ChronicPain/tree/main/Henn_chronicPain_master)
 
 ## Publication DOI
-following
+:arrow_right: following
 
 ## Pre-registration
 * Registered on [PROSPERO](https://www.crd.york.ac.uk/prospero/display_record.php?RecordID=176498) on 23/01/2020
