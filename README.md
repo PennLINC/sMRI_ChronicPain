@@ -181,7 +181,11 @@ The following folders can be found in the ALE folder:
 4. *VolumsZ*
     - format: NIfTI (.nii)
     - contains Z-scored unthresholded ALE maps 
-  
+5. *NullDistributions*
+    - format: mat files 
+    - calculation of required cluster size (*k*) using cFWE at p < .05 using documents with the suffix *_clustP.mat*
+        - Matlab code for the cut-off calculation ```NN = sort(NN(~isnan(NN)),'descend'); cut = NN(ceil(numel(NN)*.05))```
+ 
 ### 3.2. Figures
 A detailed description of how to use MRIcron can be found here: [MRIcron Introducation](https://people.cas.sc.edu/rorden/mricron/main.html)
 You have many possibilities to view the NIfTI documents or to generate images with MRIcron. In the following I will only describe how I generated the figures in the paper associated with the data so that you will be able to reproduce them. 
