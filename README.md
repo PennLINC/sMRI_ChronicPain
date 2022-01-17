@@ -50,7 +50,7 @@ Paper in preparation
     - painCoords_CT_sensitivity_analyses.xls
 
 ## Path to Data on Filesystem
-:arrow_right:[path](https://github.com/alinahenn/sMRI_ChronicPain/tree/main/Henn_chronicPain_master)
+:arrow_right: [path](https://github.com/alinahenn/sMRI_ChronicPain/tree/main/Henn_chronicPain_master)
 
 ## Publication DOI
 :arrow_right: following
