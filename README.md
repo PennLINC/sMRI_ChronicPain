@@ -182,7 +182,7 @@ The following folders can be found in the ALE folder:
     - format: NIfTI (.nii)
     - contains Z-scored unthresholded ALE maps 
 5. *NullDistributions*
-    - format: mat files 
+    - format: matlab files (.mat) 
     - calculation of required cluster size (*k*) using cFWE at p < .05 using documents with the suffix *_clustP.mat*
         - Matlab code for the cut-off calculation ```NN = sort(NN(~isnan(NN)),'descend'); cut = NN(ceil(numel(NN)*.05))```
  
