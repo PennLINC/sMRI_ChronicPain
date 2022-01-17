@@ -49,12 +49,7 @@ Paper in preparation
     - pain_CT_sensitivity_analyses.xlsx
     - painCoords_CT_sensitivity_analyses.xls
 
-
-## Github Repository
-following
-
-## Path to Data on Filesystem
-following
+## [Path to Data on Filesystem](https://github.com/alinahenn/sMRI_ChronicPain/tree/main/Henn_chronicPain_master)
 
 ## Publication DOI
 following
