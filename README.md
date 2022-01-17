@@ -22,18 +22,33 @@ January 2020
 Paper in preparation 
 
 ## Datasets
+
 1. Main analysis:
-    - aberrant_20210617.xls
-    - pain_20210617.xlsx
-    - painCoords_20210617.xls
-2. Subanalysis: gray matter
-    - aberrant_GM_20210617.xls
-    - pain_GM_20210617.xlsx 
-    - painCoords_GM_20210617.xls
-3. Subanalysis: cortical thickness
-    - aberrant_CT_20210617.xls 
-    - pain_CT_20210617.xlsx
-    - painCoords_CT_20210617.xls
+    - aberrant.xls
+    - pain.xlsx
+    - painCoords.xls
+2. Feature-specific analysis: gray matter
+    - aberrant_GM.xls
+    - pain_GM.xlsx 
+    - painCoords_GM.xls
+3. Feature-specific analysis: cortical thickness
+    - aberrant_CT.xls 
+    - pain_CT.xlsx
+    - painCoords_CT.xls
+****************************************************  
+4. Sensitivity analysis: Main analysis
+    - aberrant_sensitivity_analyses.xls
+    - pain_sensitivity_analyses.xlsx
+    - painCoords_sensitivity_analyses.xls
+5. Feature-specific analysis: gray matter
+    - aberrant_GM_sensitivity_analyse.xls
+    - pain_GM_sensitivity_analyses.xlsx 
+    - painCoords_GM_sensitivity_analyses.xls
+6. Feature-specific analysis: cortical thickness
+    - aberrant_CT_sensitivity_analyses.xls 
+    - pain_CT_sensitivity_analyses.xlsx
+    - painCoords_CT_sensitivity_analyses.xls
+
 
 ## Github Repository
 following
