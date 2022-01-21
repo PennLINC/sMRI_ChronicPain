@@ -106,14 +106,14 @@ If you are running the analyses on a Windows OS computer, please follow the next
 
 ### 2.1. Main analysis 
 ***:arrow_right: approximate duration: 5 hours (at computer center (IZKF) RWTH Aachen University Hospital)***  
-+ ```ale_inputCoords('aberrant.xls')```: 
++ ```ale_inputCoords('aberrant_all.xls')```: 
     - The coordinate data for the main analyses (aberrant structural changes) located in *data/aberrant_20210617.xls* are read in. 
     - Data will be converted to a .mat format for the analyses.
-+ ```ale_inputCoords('painCoords.xls')```: 
++ ```ale_inputCoords('painCoords_all.xls')```: 
     - Reads the coordinate data from the document *data/painCoords_20210617.xls* for the subgroup analyses regarding direction-specific group differences in structural data.
     - The coordinate data is read in .mat format for analyses and is located in ale/DataMatlab folder.
     - Description: 
-+ ```ale_estimateALE('pain.xlsx')```
++ ```ale_estimateALE('pain_all.xlsx')```
     - Starts the actual ALE analysis
 
 ### 2.2. Feature-specific analyses 
@@ -137,21 +137,21 @@ In the context of the subanalysis, the documents listed below are read in in an 
 ### 2.3. Sensitivity analyses 
 **Sensitivity analysis: Main analysis** 
 *:arrow_right: approximate duration: 5 hours (at computer center (IZKF) RWTH Aachen University Hospital)* 
-+ ```ale_inputCoords('aberrant_sensitivity_analyses.xls')```: 
-+ ```ale_inputCoords('painCoords_sensitivity_analyses.xls')```: 
-+ ```ale_estimateALE('pain_sensitivity_analyses.xlsx')```
++ ```ale_inputCoords('aberrant_all_sensitivity_analysis.xls')```: 
++ ```ale_inputCoords('painCoords_all_sensitivity_analysis.xls')```: 
++ ```ale_estimateALE('pain_all_sensitivity_analysis.xlsx')```
 
 **Sensitivity analysis: gray matter**
 *:arrow_right: approximate duration: 3.5 hours (at computer center (IZKF) RWTH Aachen University Hospital)*
-+ ```ale_inputCoords('aberrant_GM_sensitivity_analyses.xls')```
-+ ```ale_inputCoords('painCoords_GM_sensitivity_analyses.xls')```
-+ ```ale_estimateALE('pain_GM_sensitivity_analyses.xlsx')```
++ ```ale_inputCoords('aberrant_GM_sensitivity_analysis.xls')```
++ ```ale_inputCoords('painCoords_GM_sensitivity_analysis.xls')```
++ ```ale_estimateALE('pain_GM_sensitivity_analysis.xlsx')```
 
 **Sensitivity analysis: cortical thickness**
 *:arrow_right: approximate duration: 1.5 hours (at computer center (IZKF) RWTH Aachen University Hospital)*
-+ ```ale_inputCoords('aberrant_CT_sensitivity_analyses.xls')```
-+ ```ale_inputCoords('painCoords_CT_sensitivity_analyses.xls')```
-+ ```ale_estimateALE('pain_CT_sensitivity_analyses.xlsx')```
++ ```ale_inputCoords('aberrant_CT_sensitivity_analysis.xls')```
++ ```ale_inputCoords('painCoords_CT_sensitivity_analysis.xls')```
++ ```ale_estimateALE('pain_CT_sensitivity_analysis.xlsx')```
 
 
 
