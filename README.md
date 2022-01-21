@@ -161,7 +161,7 @@ In the context of the subanalysis, the documents listed below are read in in an 
    + C: cortical thickness
    + D: cortical surface area
    + E: cortical volume
-+ *Numbers (1,2)*: if a first author has published more than one paper in the same year.
++ *Numbers (1,2)*: listed when a first author has published more than one paper in the same year.
 
 
 ## 3. Results
