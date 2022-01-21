@@ -19,7 +19,7 @@ Bart Larsen, Lennart Frahm, Anna Xu, Azeez Adebimpe, J. Cobb Scott, Sophia Lingu
 January 2020
 
 ## Current Project Status
-:arrow_right: Paper entitled "Structural Imaging Studies of Patients with Chronic Pain: An Anatomic Likelihood Estimate Meta-Analysis" submitted at *PAIN*, 01/21/2022
+:arrow_right: Paper entitled "Structural Imaging Studies of Patients with Chronic Pain: An Anatomic Likelihood Estimate Meta-Analysis" submitted at [*PAIN*](https://journals.lww.com/pain/pages/default.aspx), 01/21/2022
 
 ## Datasets
 
