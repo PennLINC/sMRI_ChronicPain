@@ -1,5 +1,5 @@
 # sMRI_ChronicPain
- Anatomic Likelihood Estimate Meta-Analysis (ALE) Meta-Analysis of Structural Imaging Studies in Patients with Chronic Pain versus Healthy Controls
+ Anatomic Likelihood Estimate (ALE) Meta-Analysis of Structural Imaging Studies in Patients with Chronic Pain versus Healthy Controls
 
 
 ## Project Lead
