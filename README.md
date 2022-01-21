@@ -153,7 +153,15 @@ In the context of the subanalysis, the documents listed below are read in in an 
 + ```ale_inputCoords('painCoords_CT_sensitivity_analysis.xls')```
 + ```ale_estimateALE('pain_CT_sensitivity_analysis.xlsx')```
 
-
+### 2.4 Coding of the sources in the Excel tables:
++ *small letters (a,b,c)*: listed when different pain groups in the paper are compared with a healthy control group.
++ *Capital letters (A,B,C)*: listed when data for different features are listed in the paper.
+   + A: gray matter
+   + B: white matter
+   + C: cortical thickness
+   + D: cortical surface area
+   + E: cortical volume
++ *Numbers (1,2)*: if a first author has published more than one paper in the same year.
 
 
 ## 3. Results
