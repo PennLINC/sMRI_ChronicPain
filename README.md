@@ -1,5 +1,5 @@
 # sMRI_ChronicPain
-ALE Meta-Analysis of Structural Imaging Studies in Patients with Chronic Pain versus Healthy Controls
+ Anatomic Likelihood Estimate Meta-Analysis (ALE) Meta-Analysis of Structural Imaging Studies in Patients with Chronic Pain versus Healthy Controls
 
 
 ## Project Lead
@@ -19,7 +19,7 @@ Bart Larsen, Lennart Frahm, Anna Xu, Azeez Adebimpe, J. Cobb Scott, Sophia Lingu
 January 2020
 
 ## Current Project Status
-:arrow_right: Paper in preparation 
+:arrow_right: Paper entitled "Structural Imaging Studies of Patients with Chronic Pain: An Anatomic Likelihood Estimate Meta-Analysis" submitted at *PAIN*, 01/21/2022
 
 ## Datasets
 
